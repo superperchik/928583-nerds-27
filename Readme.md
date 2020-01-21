@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Иван Поддубный](https://up.htmlacademy.ru/htmlcss/27/user/928583).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Налимова] (https://htmlacademy.ru/profile/tuetfe).
 
 ---
 
