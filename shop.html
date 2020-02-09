@@ -28,17 +28,17 @@
 </header>
 <main class="container">
 <h1 class="page-title">Магазин готовых шаблонов</h1>
-<form method="get" action="https://echo.htmlacademy.ru">
+<form  class="filter" method="get" action="https://echo.htmlacademy.ru">
 <fieldset>
   <legend>Сетка</legend>
 <ul>
-    <li class="filter-option"><input type="radio" name="product-group" value="adapted" id="filter-adapted">
+    <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="adapted" id="filter-adapted">
       <label for="filter-adapted">Адаптиновая</label> 
     </li>
-    <li class="filter-option"><input type="radio" name="product-group" value="fixed" id="filter-fixed">
+    <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="fixed" id="filter-fixed">
       <label for="filter-fixed">Фиксированная</label>  
     </li>
-    <li class="filter-option"><input type="radio" name="product-group" value="rubber" id="filter-rubber">
+    <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="rubber" id="filter-rubber">
       <label for="filter-rubber">Резиновая</label>  
     </li>
 </ul>
@@ -49,23 +49,23 @@
   <legend>Особенности:</legend>
 <ul >
     <li class="filter-option"> 
-      <input type="checkbox" name="Slaider name" id="Slaider-id" checked>
+      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Slaider name" id="Slaider-id" checked>
       <label for="Slaider-id">Слайдер</label>
     </li>
     <li class="filter-option"> 
-      <input type="checkbox " name="block name" id="block-id" disabled>
+      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox " name="block name" id="block-id" disabled>
       <label for="block-id">Блок преимуществ</label>
        </li>
     <li class="filter-option"> 
-      <input type="checkbox " name="news name" id="news-id" checked>
+      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox " name="news name" id="news-id" checked>
       <label for="news-id">Новости</label>
        </li>
     <li class="filter-option">  
-      <input type="checkbox" name="gallery name" id="gallery-id" checked>
+      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery name" id="gallery-id" checked>
       <label for="gallery-id">Галерея</label>
        </li>
     <li class="filter-option">  
-      <input type="checkbox" name="basket name" id="basket-id" checked>
+      <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket name" id="basket-id" checked>
       <label for="basket-id">Корзина</label>
        </li>
 </ul>
@@ -75,56 +75,59 @@
 </section>
 <section class="catalog">
         <ul class="catalog-list">
-          <li class="catalog-item"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото sedona ">
+          <li class="catalog-item-page"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото sedona ">
             <section> 
-              <h3 class="catalog-category"><a href="catalog-item.html">Название шаблона</a></h3>
+              <h3 class="catalog-category"><a href="catalog-item.html" class="catalog-item-title">Название шаблона</a></h3>
             <p>описание шаблона</p>
                 <p>
+                    <a href="#">9 900 ₽</a>
+              
+                  </p>
+            </section>
+        </li>
+          <li class="catalog-item-page"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото pink">
+            <section> 
+              <h3><a href="catalog-item.html" class="catalog-item-title">Название шаблона</a></h3>
+            <p>описание шаблона</p>
+                <p class="catalog-item-price">
+                    <a href="#">9 900 ₽</a>
+             
+                  </p>
+            </section>
+        </li>
+          <li class="catalog-item-page"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото borodinsky"></a>
+            <section> 
+              <h3><a href="catalog-item.html" class="catalog-item-title">Название шаблона</a></h3>
+            <p>описание шаблона</p>
+                <p class="catalog-item-price">
+                    <a href="#">9 900 ₽</a>
+           
+                  </p>
+            </section>
+        </li>
+          <li class="catalog-item-page"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото toys"></a>
+            <section> 
+              <h3><a href="catalog-item.html" class="catalog-item-title">Название шаблона</a></h3>
+            <p>описание шаблона</p>
+                <p class="catalog-item-price">
                     <a href="#">9 900 ₽</a>
                   </p>
             </section>
         </li>
-          <li class="catalog-item"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото pink">
+          <li class="catalog-item-page"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото htmlacademy"></a>
             <section> 
-              <h3><a href="catalog-item.html">Название шаблона</a></h3>
+              <h3><a href="catalog-item.html" class="catalog-item-title">Название шаблона</a></h3>
             <p>описание шаблона</p>
-                <p>
+                <p class="catalog-item-price">
                     <a href="#">9 900 ₽</a>
                   </p>
             </section>
         </li>
-          <li class="catalog-item"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото borodinsky"></a>
+          <li class="catalog-item-page"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото craf tbear "></a>
             <section> 
               <h3><a href="catalog-item.html">Название шаблона</a></h3>
             <p>описание шаблона</p>
-                <p>
-                    <a href="#">9 900 ₽</a>
-                  </p>
-            </section>
-        </li>
-          <li class="catalog-item"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото toys"></a>
-            <section> 
-              <h3><a href="catalog-item.html">Название шаблона</a></h3>
-            <p>описание шаблона</p>
-                <p>
-                    <a href="#">9 900 ₽</a>
-                  </p>
-            </section>
-        </li>
-          <li class="catalog-item"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото htmlacademy"></a>
-            <section> 
-              <h3><a href="catalog-item.html">Название шаблона</a></h3>
-            <p>описание шаблона</p>
-                <p>
-                    <a href="#">9 900 ₽</a>
-                  </p>
-            </section>
-        </li>
-          <li class="catalog-item"><img src="https://via.placeholder.com/150x100" width="140" height="149" alt="Фото craf tbear "></a>
-            <section> 
-              <h3><a href="catalog-item.html">Название шаблона</a></h3>
-            <p>описание шаблона</p>
-                <p>
+                <p class="catalog-item-price">
                     <a href="#">9 900 ₽</a>
                   </p>
             </section>
@@ -159,9 +162,9 @@
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей</p>
       <ul>
-        <li><a href="#"><img src="img/vk-icon" alt="Вконтакте">Вконтакте</a></li>
-        <li><a href="#"><img src="img/fb-icon.svg" alt="Фейсбук">Фейсбук</a></li>
-        <li><a href="#"><img src="img/insta-icon.svg" alt="Инстаграм">Инстаграм</a></li>
+        <li><a  class="social-button" href="#"><img src="img/vk-icon" alt="Вконтакте">Вконтакте</a></li>
+        <li><a   class="social-button" href="#"><img src="img/fb-icon.svg" alt="Фейсбук">Фейсбук</a></li>
+        <li><a  class="social-button" href="#"><img src="img/insta-icon.svg" alt="Инстаграм">Инстаграм</a></li>
      </ul>
     </div>
    <p>
