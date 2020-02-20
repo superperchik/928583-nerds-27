@@ -3,8 +3,8 @@ body {
     padding: 0;
   
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 10px;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 24px;
     font-weight: 500;
     color: #000000;
     text-transform: uppercase;
@@ -13,8 +13,12 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
   }
+
+  a {
+    text-decoration: none;
+  }
   
-  .main-navigation 
+  .site-navigation
   {
     font-size: 21px;
     line-height: 40px;
@@ -22,24 +26,9 @@ body {
   }
 
   .page-title {
-    font-size: 30px;
-    line-height: 42px;
-  }
-
-  .breadcrumbs {
-    list-style: none;
-  }
-  .breadcrumbs a {
-    color: #000000;
-  }
-  
-  .breadcrumbs a:hover,
-  .breadcrumbs a:focus {
-    text-decoration: underline;
-  }
-  
-  .breadcrumbs-current {
-    color: #aba9a7;
+    font-size: 73px;
+    line-height: 73px;
+    font-weight: medium;
   }
 
   .filter fieldset {
@@ -48,24 +37,18 @@ body {
 
   .filter legend {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 39px;
+    font-weight: bold;
   }
 
-  .filter ul {
+  .filter-option {
     list-style: none;
+    font-size: 26px;
     line-height: 18px;
+    font-weight: 200;
   }
 
-  .filter-input:hover + label,
-.filter-input:focus + label {
-  color: #663d15;
-}
-
-.filter-input:disabled + label {
-  color: #000000;
-
-  opacity: 0.5;
-}
+  
 
 .catalog-list {
     list-style: none;
@@ -84,17 +67,18 @@ body {
     color: #ff0000;
   }
   
-  .catalog-item h3 {
-    font-size: 14px;
-    line-height: 18px;
+  .catalog-item title {
+    font-size: 23px;
+    line-height: 39px;
+    font-weight: bold;
   }
 
   .catalog-category {
     text-transform: none;
   }
   .catalog-item-price b {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 23px;
     text-align: center;
   
     background-color: #e5e5e5;
@@ -111,6 +95,8 @@ body {
   
     background-color: #0f35df;
   }
+
+  /*закончил тут*/
 
   .pagination-item a:hover,
 .pagination-item a:focus,
@@ -132,9 +118,7 @@ body {
     background-color: #ffffff;
   }
 
-  a {
-    text-decoration: none;
-  }
+  
 
   .main-navigation {
     font-size: 16px;
