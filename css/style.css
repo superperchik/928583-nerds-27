@@ -24,16 +24,14 @@ body {
     font-size: 21px;
     line-height: 40px;
     font-weight: 500;
-    color: #000000;
-    text-transform: uppercase;
   }
-
+/* размер заголовка "Магазин готовых шаблонов в shop */
   .page-title {
     font-size: 73px;
     line-height: 73px;
     font-weight: medium;
   }
-
+/* убирает видимую границу у "сетки" и "особенности" */
   .filter fieldset {
     border: none;
   }
@@ -43,7 +41,7 @@ body {
     line-height: 39px;
     font-weight: bold;
   }
-
+/* размер слов "сетка" и "особенности" */
   .filter-option {
     list-style: none;
     font-size: 21px;
@@ -51,12 +49,13 @@ body {
     font-weight: 200;
   }
 
-  
+  /* отключает маркеры у товаров */
+  /*  */
 
 .catalog-list {
     list-style: none;
   }
-  
+  /* цвет для товара */
   .catalog-item {
     background-color: #f8f8f8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -69,7 +68,7 @@ body {
   .catalog-item a {
     color: #ff0000;
   }
-  
+  /* размер для заголовка товара */
   .catalog-item title {
     font-size: 23px;
     line-height: 39px;
@@ -79,6 +78,7 @@ body {
   .catalog-category {
     text-transform: none;
   }
+  /* размер и цвет для цены */
   .catalog-item-price b {
     font-size: 21px;
     line-height: 23px;
@@ -86,80 +86,21 @@ body {
   
     background-color: #e5e5e5;
   }
+  /* кнопка купить */
   .catalog-item-price .button {
     line-height: 20px;
     color: #ffffff;
   }
-  .pagination-list {
-    list-style: none;
-  }
-  .pagination-item a {
-    color: #ffffff;
   
-    background-color: #0f35df;
-  }
 
     /*  */
   /*закончил тут*/
 
-  .pagination-item a:hover,
-.pagination-item a:focus,
-.pagination-item a:active {
-  background-color: #663d15;
-}
-
-.pagination-item-current a {
-    color: #000000;
-  
-    background-color: #ffffff;
-  }
-  
-  .pagination-item-current a:hover,
-  .pagination-item-current a:focus,
-  .pagination-item-current a:active {
-    color: #000000;
-  
-    background-color: #ffffff;
-  }
-
-  
-
+ 
   .main-navigation {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
-  
-    background-color: #ffffff;
-  }
-
-  .site-navigation,
-.user-navigation {
-  list-style: none;
-}
-
-.site-navigation a,
-.user-navigation a {
-  color: #ffffff;
-}
-
-.site-navigation a:hover,
-.site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
-  background-color: #242424;
-}
-
-.features-list {
-    list-style: none;
-  }
-
-  .feature-item {
-    text-align: center;
-  }
-  
-  .feature-item h3 {
-    font-size: 30px;
-    line-height: 42px;
   }
 
   button {
@@ -181,8 +122,6 @@ body {
 
 .main-footer {
     color: #000000;
-  
-    background-color: #ffffff;
     background-position: 0 0;
     background-repeat: repeat;
   }
@@ -215,6 +154,4 @@ body {
   .footer-copyright .button:hover,
   .footer-copyright .button:focus {
     color: #000000;
-  
-    background-color: #ffffff;
   }
