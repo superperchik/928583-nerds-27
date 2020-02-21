@@ -4,9 +4,9 @@ body {
     padding: 0;
   
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 400;
     color: #000000;
     text-transform: uppercase;
    
@@ -21,14 +21,28 @@ body {
    /* размеры навигационных кнопок */
   .site-navigation
   {
-    font-size: 21px;
+    font-size: 16px;
     line-height: 40px;
     font-weight: 500;
   }
+  /* преимущества */
+.h3
+  {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+/* заголовок "Давайте дружить" */
+  .footer-title
+  {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+  }
 /* размер заголовка "Магазин готовых шаблонов в shop */
   .page-title {
-    font-size: 73px;
-    line-height: 73px;
+    font-size: 55px;
+    line-height: 55px;
     font-weight: medium;
   }
 /* убирает видимую границу у "сетки" и "особенности" */
@@ -44,9 +58,9 @@ body {
 /* размер слов "сетка" и "особенности" */
   .filter-option {
     list-style: none;
-    font-size: 21px;
-    line-height: 18px;
-    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
   }
 
   /* отключает маркеры у товаров */
@@ -70,8 +84,8 @@ body {
   }
   /* размер для заголовка товара */
   .catalog-item title {
-    font-size: 23px;
-    line-height: 39px;
+    font-size: 18px;
+    line-height: 30px;
     font-weight: bold;
   }
 
@@ -80,8 +94,8 @@ body {
   }
   /* размер и цвет для цены */
   .catalog-item-price b {
-    font-size: 21px;
-    line-height: 23px;
+    font-size: 16px;
+    line-height: 18px;
     text-align: center;
   
     background-color: #e5e5e5;
@@ -92,11 +106,6 @@ body {
     color: #ffffff;
   }
   
-
-    /*  */
-  /*закончил тут*/
-
- 
   .main-navigation {
     font-size: 16px;
     line-height: 20px;
@@ -120,29 +129,13 @@ body {
   background-color: #663d15;
 }
 
+ /* подвал сайта */
 .main-footer {
     color: #000000;
     background-position: 0 0;
     background-repeat: repeat;
   }
 
-  .footer-contacts a {
-    color: #ffffff;
-    text-decoration: underline;
-  }
-  
-  .footer-contacts a:hover,
-  .footer-contacts a:focus {
-    text-decoration: none;
-  }
-  .footer-social {
-    text-align: center;
-  }
-  
-  .footer-social ul {
-    list-style: none;
-  }
-  
   .social-button {
     color: #a7a3a3;
     visibility: hidden;

@@ -1,31 +1,32 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-   <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">  
   </head>
   <body class="inner-page">
-      <header class="main-header">
-  <nav class="main-navigation">
-    <a class="main-header-logo">
-      <img src="img/nerds-logo.svg"  alt="Логотип Нердс">
-    </a>
-    <ul class="site-navigation">
-      <li><a href="">Студия</a></li>
-      <li><a href="">Клиенты</a></li>
-      <li class="site-navigation-current"><a  href="shop.html">Магазин</a></li>
-      <li><a href="">Контакты</a></li>
-    </ul>
-    <ul class="user-navigation">
-      <li>
-        <a href=""> Корзина</a>
-      </li>
-    </ul>
-  </nav>  
-</header>
+    <header>
+    <nav>
+      <a>
+        <img src="img/nerds-logo.svg"  alt="Логотип Нердс">
+      </a>
+      <ul class='site-navigation'>
+        <li><a href="">Студия</a></li>
+        <li><a href="">Клиенты</a></li>
+        <li><a href="shop.html">Магазин</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+      <ul>
+        
+        <li>
+             <a class='site-navigation' href=""> Корзина </a>
+        </li>
+      </ul>
+    </nav>  
+    </header>
 <main class="container">
 <h1 class="page-title">Магазин готовых шаблонов</h1>
 <form   method="get" action="https://echo.htmlacademy.ru">
@@ -79,8 +80,8 @@
             <section> 
               <h3 class="catalog-category"><a href="catalog-item.html" class="catalog-item-title">Название шаблона</a></h3>
             <p>описание шаблона</p>
-                <p>
-                    <a href="#">9 900 ₽</a>
+                <p classs='catalog-item-price'>
+                    <a  href="#">9 900 ₽</a>
               
                   </p>
             </section>
@@ -100,7 +101,7 @@
               <h3><a  class="catalog-item-title">Название шаблона</a></h3>
             <p>описание шаблона</p>
                 <p class="catalog-item-price">
-                    <a href="#">9 900 ₽</a>
+                    <a  href="#">9 900 ₽</a>
            
                   </p>
             </section>
@@ -157,20 +158,20 @@
   </button>
 </section>
 </main>
-<footer class="main-footer">
-    <div>
-      <b>Давайте дружить, это выгодно!</b>
-      <p>Скидка 10% для друзей из социальных сетей</p>
-      <ul>
-        <li><a  class="social-button" href="#">Вконтакте</a></li>
-        <li><a   class="social-button" href="#">Фейсбук</a></li>
-        <li><a  class="social-button" href="#">Инстаграм</a></li>
-     </ul>
-    </div>
-   <p>
-     Разработано: 
-     <a href="https://htmlacademy.ru">HTML Academy</a>
-   </p>
-   </footer>  
-  </body>
+<footer class='main-footer'>
+  <div>
+    <b class='footer-title'>Давайте дружить, это выгодно!</b>
+    <p>Скидка 10% для друзей из социальных сетей</p>
+    <ul>
+     <li><a class='social-button' href="#">Вконтакте</a></li>
+     <li><a class='social-button' href="#">Фейсбук</a></li>
+     <li><a class='social-button' href="#">Инстаграм</a></li>
+   </ul>
+  </div>
+ <p>
+   Разработано: 
+   <a  class='footer-copyright'href="https://htmlacademy.ru">HTML Academy</a>
+ </p>
+ </footer>  
+</body>
 </html>
