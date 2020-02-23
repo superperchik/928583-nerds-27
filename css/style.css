@@ -8,11 +8,10 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #000000;
-    text-transform: uppercase;
+    text-transform: none;
    
   background-color: #ffffff;
-  background-position: top center;
-  background-repeat: no-repeat;
+  
   }
  /* отключаем у ссылок подчеркивание */
   a {
@@ -25,8 +24,14 @@ body {
     line-height: 40px;
     font-weight: 500;
   }
+  .zakaz
+  {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+  }
   /* преимущества */
-.h3
+.advantages
   {
     font-size: 24px;
     line-height: 30px;
@@ -37,13 +42,14 @@ body {
   {
     font-size: 36px;
     line-height: 36px;
-    font-weight: bold;
+    font-weight: 700;
   }
 /* размер заголовка "Магазин готовых шаблонов в shop */
   .page-title {
     font-size: 55px;
     line-height: 55px;
-    font-weight: medium;
+    font-weight: 500;
+    text-transform: none;
   }
 /* убирает видимую границу у "сетки" и "особенности" */
   .filter fieldset {
@@ -51,16 +57,17 @@ body {
   }
 
   .filter legend {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 39px;
-    font-weight: bold;
+    font-weight: 700;
   }
 /* размер слов "сетка" и "особенности" */
   .filter-option {
     list-style: none;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 30px;
-    font-weight: bold;
+    font-weight: 400;
+    text-transform: none;
   }
 
   /* отключает маркеры у товаров */
@@ -104,6 +111,7 @@ body {
   .catalog-item-price .button {
     line-height: 20px;
     color: #ffffff;
+    font-weight: 500;
   }
   
   .main-navigation {
