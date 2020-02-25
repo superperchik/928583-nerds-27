@@ -112,13 +112,14 @@ body {
   .catalog-item-price .button {
     line-height: 20px;
     color: #ffffff;
-    font-weight: 400;
+    
   }
   
   .main-navigation {
     font-size: 16px;
     line-height: 20px;
     color: #e7e4e4;
+    font-weight: 400;
   }
 
   button {
