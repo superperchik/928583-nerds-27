@@ -35,7 +35,7 @@ body {
   {
     font-size: 24px;
     line-height: 30px;
-    font-weight: bold;
+    font-weight: 700;
   }
 /* заголовок "Давайте дружить" */
   .footer-title
@@ -93,7 +93,8 @@ body {
   .catalog-item title {
     font-size: 18px;
     line-height: 30px;
-    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   .catalog-category {
@@ -111,13 +112,13 @@ body {
   .catalog-item-price .button {
     line-height: 20px;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 400;
   }
   
   .main-navigation {
     font-size: 16px;
     line-height: 20px;
-    color: #000000;
+    color: #e7e4e4;
   }
 
   button {
@@ -134,7 +135,7 @@ body {
   .button:hover,
 .button:focus,
 .button:active {
-  background-color: #663d15;
+  background-color: #788688;
 }
 
  /* подвал сайта */
