@@ -13,10 +13,98 @@ body {
   background-color: #ffffff;
   
   }
+
+  .container {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+    font: inherit;
+    line-height: 18px;
+    color: #fff;
+
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-red {
+    background-color: #fb565a;
+}
+
+.button-red:hover,
+.button-red:focus {
+    background-color: #e74246;
+}
+
+.button-red:active {
+    background-color: #d7373b;
+    -webkit-box-shadow: inset 0px 3px rgba(0, 1, 1, 0.1);
+            box-shadow: inset 0px 3px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.button-green {
+    background-color: #00ca74;
+}
+
+.button-green:hover,
+.button-green:focus {
+    background-color: #00bc6c;
+}
+
+.button-green:active {
+    background-color: #00aa62;
+    -webkit-box-shadow: inset 0px 3px rgba(0, 1, 1, 0.1);
+            box-shadow: inset 0px 3px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.button-yellow {
+    background-color: #efc84a;
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+    background-color: #eab534;
+}
+
+.button-yellow:active {
+    background-color: #e5a722;
+    -webkit-box-shadow: inset 0px 3px rgba(0, 1, 1, 0.1);
+            box-shadow: inset 0px 3px rgba(0, 1, 1, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
  /* отключаем у ссылок подчеркивание */
   a {
     text-decoration: none;
   }
+  img {
+    max-width: 100%;
+    height: auto;
+}
    /* размеры навигационных кнопок */
   .site-navigation
   {
